@@ -7151,7 +7151,8 @@ p.checkout-coupon input[type="text"] {
 /*Services Category*/
 .sidebar.services-sidebar {
     position: sticky;
-    top: 0;
+        top: 120px;
+        z-index: 1000;
 }
 .services-categories{
 	position:relative;
@@ -7379,6 +7380,25 @@ p.checkout-coupon input[type="text"] {
 ====================================================================
 
 ***/
+.customlist {
+    margin-bottom: 20px;
+}
+
+.customtext {
+        margin-bottom: 60px;
+    }
+
+.service-section {
+    scroll-margin-top: 100px;
+
+    
+}
+
+@media screen and (max-width: 767px) {
+    .service-section {
+        scroll-margin-top: 200px;
+    }
+}
 
 .service-detail{
 	position: relative;
