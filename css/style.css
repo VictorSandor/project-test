@@ -7380,7 +7380,13 @@ p.checkout-coupon input[type="text"] {
 ====================================================================
 
 ***/
+.customlist {
+    margin-bottom: 20px;
+}
 
+.customtext {
+        margin-bottom: 60px;
+    }
 
 .service-section {
     scroll-margin-top: 100px;
