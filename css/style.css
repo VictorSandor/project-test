@@ -7151,7 +7151,8 @@ p.checkout-coupon input[type="text"] {
 /*Services Category*/
 .sidebar.services-sidebar {
     position: sticky;
-    top: 0;
+        top: 20px;
+        z-index: 1000;
 }
 .services-categories{
 	position:relative;
