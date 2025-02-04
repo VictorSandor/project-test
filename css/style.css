@@ -7388,10 +7388,9 @@ p.checkout-coupon input[type="text"] {
     
 }
 
-@media (max-width: 767px) {
-    .section {
+@media screen and (max-width: 767px) {
+    .service-section {
         scroll-margin-top: 200px;
-        /* Учитываем высоту мобильного меню */
     }
 }
 
