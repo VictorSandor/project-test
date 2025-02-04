@@ -293,7 +293,7 @@ label {
 .btn:hover{color: #fff;}
 .btn:hover::before{opacity: 0;}
 .breadcrumb-wrap {
-    text-align: center;
+    text-align: left;
 }
 .breadcrumb > .active {
 	color: #888;
@@ -301,7 +301,37 @@ label {
 .breadcrumb-wrap.text-left {
     text-align: center !important;
     padding-top: 101px; 
-    padding-bottom: 60px;
+    padding-bottom: 50px;
+}
+
+.h-contact {
+    display: flex;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.h-contact a {
+    color: #a6aab0 !important;
+}
+
+.h-contact a:hover {
+    color: #cc866c !important;
+}
+
+
+.h-contact .icon {
+    margin-right: 15px;
+    padding-top: 5px;
+}
+
+.h-contact span {
+    color: #a6aab0;
+    display: block;
+}
+
+.h-contact h3 {
+    color: #fff;
+    font-size: 24px;
 }
 
 .btn-after{
@@ -7380,6 +7410,50 @@ p.checkout-coupon input[type="text"] {
 ====================================================================
 
 ***/
+
+.call-button {
+    display: inline-flex;
+    /* Красивое расположение */
+    align-items: center;
+    gap: 10px;
+    /* Отступ между иконкой и текстом */
+    background-color: #4CAF50;
+    /* Основной цвет */
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    animation: pulse 1.5s infinite;
+    /* Анимация пульсации */
+}
+
+.call-button i {
+    font-size: 22px;
+    /* Размер иконки */
+}
+
+.call-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px rgba(76, 175, 80, 0.6);
+    }
+
+    50% {
+        box-shadow: 0 0 20px rgba(76, 175, 80, 0.9);
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(76, 175, 80, 0.6);
+    }
+}
+
 .customlist {
     margin-bottom: 20px;
 }
